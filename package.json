@@ -1,10 +1,13 @@
 {
   "name": "egg-jenkins",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Jenkins-client for Egg",
   "main": "app.js",
   "directories": {
     "lib": "lib"
+  },
+  "eggPlugin": {
+    "name": "jenkins"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -15,8 +18,19 @@
   },
   "keywords": [
     "egg",
-    "jenkins"
+    "jenkins",
+    "eggPlugin",
+    "egg-plugin",
+    "egg-jenkins"
   ],
+  "files": [
+    "app.js",
+    "app",
+    "lib"
+  ],
+  "ci": {
+    "version": "8, 10, 12"
+  },
   "author": "Ricky <mail@zhoumq.cn>",
   "license": "MIT",
   "bugs": {
