@@ -1,5 +1,5 @@
 'use strict';
 
 module.exports = app => {
-  require('./lib/kubernetes')(app);
+  require('./lib/jenkins')(app);
 };
